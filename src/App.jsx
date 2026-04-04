@@ -1,12 +1,13 @@
 import { useState } from "react";
 import "./App.css";
 
+import Weather from "./Weather";
+
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather app</h1>
-        <button className="btn btn-primary">Hello</button>
+        <Weather />
         <p>
           Project coded by Mona Beyersdorf, open sourced on{" "}
           <a
