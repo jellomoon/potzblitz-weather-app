@@ -8,7 +8,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather />
-        <p>
+        <footer>
           Project coded by Mona Beyersdorf, open sourced on{" "}
           <a
             href="https://github.com/jellomoon/potzblitz-weather-app"
@@ -16,7 +16,7 @@ export default function App() {
           >
             GitHub
           </a>{" "}
-        </p>
+        </footer>
       </div>
     </div>
   );

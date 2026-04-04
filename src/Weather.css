@@ -1,3 +1,70 @@
 .Weather {
-  border: 1px solid lightgray;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: #fff;
+  padding: 16px;
+}
+
+.Weather h1 {
+  display: block;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+.Weather form {
+  margin-bottom: 20px;
+}
+
+.Weather .form-input {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  color: #f0f8ff;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.Weather .form-button {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 30px;
+  transition: all 200ms ease-in-out;
+}
+
+.Weather .form-button:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+  font-size: 16px;
+  line-height: 1.5;
+  list-style: none;
+}
+
+.Weather img {
+  height: 64px;
+  width: 64px;
+  margin-right: 10px;
+}
+
+.Weather .temperature {
+  font-size: 64px;
+  line-height: 64px;
+}
+
+.Weather .unit {
+  font-size: 16px;
+  line-height: 1;
+  margin-left: 5px;
+  position: relative;
+  top: -34px;
 }
