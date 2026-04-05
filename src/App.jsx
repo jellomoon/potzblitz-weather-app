@@ -9,7 +9,7 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="Berlin" />
         <footer>
-          Project coded by Mona Beyersdorf, open sourced on{" "}
+          Coded with 🩵 by Mona Beyersdorf, open sourced on{" "}
           <a
             href="https://github.com/jellomoon/potzblitz-weather-app"
             target="_blank"
