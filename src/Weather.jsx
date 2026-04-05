@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import WeatherData from "./WeatherData";
+import { ThreeDots } from "react-loader-spinner";
 import axios from "axios";
 import "./Weather.css";
 
@@ -64,6 +65,20 @@ export default function Weather(props) {
     );
   } else {
     search();
-    return <div className="text-center text-white">Loading..</div>;
+    return (
+      <ThreeDots
+        height="40"
+        width="40"
+        color="#fff"
+        ariaLabel="audio-loading"
+        wrapperStyle={{
+          display: "flex",
+          justifyContent: "center",
+          margin: "30px 0px",
+        }}
+        wrapperClass="wrapper-class"
+        visible={true}
+      />
+    );
   }
 }
