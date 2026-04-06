@@ -1,0 +1,16 @@
+.WeatherForecast {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.WeatherForecast svg {
+  height: 62px;
+  width: 62px;
+}
+
+.WeatherForecast-temeprature-min {
+  opacity: 0.6;
+  margin-left: 5px;
+}
