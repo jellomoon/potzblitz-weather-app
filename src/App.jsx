@@ -13,6 +13,7 @@ export default function App() {
           <a
             href="https://github.com/jellomoon/potzblitz-weather-app"
             target="_blank"
+            rel="noopener noreferrer"
           >
             GitHub
           </a>{" "}
